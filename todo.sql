@@ -1,13 +1,3 @@
-
-
--- Write INSERT statements to insert five todos into this table, with one of them completed.
--- Write a SELECT statement to find all incomplete todos.
--- Write a SELECT statement to find all todos with a priority above 1.
--- Write an UPDATE statement to complete one todo by its id. Your ids may differ, so you will choose the id to up.
--- Write a DELETE statement to delete all completed todos.
-
-
-
 create table todos (
     id serial primary key,
     title varchar(255) not null,
